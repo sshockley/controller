@@ -13,17 +13,17 @@
 
 # Feel free to change the variables in this section to configure your keyboard
 
-BuildPath="template"
+BuildPath="m122"
 
 ## KLL Configuration ##
 
 # Generally shouldn't be changed, this will affect every layer
-BaseMap="scancode_map"
+BaseMap="defaultMap.kll"
 
 # This is the default layer of the keyboard
 # NOTE: To combine kll files into a single layout, separate them by spaces
 # e.g.  DefaultMap="mylayout mylayoutmod"
-DefaultMap="ic60/md1Overlay stdFuncMap"
+DefaultMap="stdFuncMap"
 
 # This is where you set the additional layers
 # NOTE: Indexing starts at 1
@@ -31,8 +31,8 @@ DefaultMap="ic60/md1Overlay stdFuncMap"
 # e.g.  PartialMaps[1]="layer1 layer1mod"
 #       PartialMaps[2]="layer2"
 #       PartialMaps[3]="layer3"
-PartialMaps[1]="ic60/hhkbpro2"
-PartialMaps[2]="colemak"
+#PartialMaps[1]="ic60/hhkbpro2"
+#PartialMaps[2]="colemak"
 
 
 
@@ -45,7 +45,7 @@ PartialMaps[2]="colemak"
 # NOTE: Changing any of these variables will require a force build to compile correctly
 
 # Keyboard Module Configuration
-ScanModule="Infinity_60"
+ScanModule="m122"
 MacroModule="PartialMap"
 OutputModule="USB"
 DebugModule="full"
